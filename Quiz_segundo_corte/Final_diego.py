@@ -1,0 +1,10 @@
+sns.set_theme(style=\"darkgrid\")
+sns.displot(daf['sepal length (cm)'], kde = False, color ='red', bins = 30)
+sns.set_theme(style=\"darkgrid\")
+sns.displot(daf['sepal width (cm)'], kde = False, color ='blue', bins = 30) 
+sns.set_theme(style=\"darkgrid\")
+sns.displot(daf['petal length (cm)'], kde = False, color ='green', bins = 30)  
+sns.set_theme(style=\"darkgrid\")
+sns.displot(daf['petal width (cm)'], kde = False, color ='black', bins = 30)                         
+sns.barplot(daf['Flor'],  color ='purple')
+#Conclusiones: Segun los graficos vistos anteriormente, se puede evidenciar como claramente hay un gran numero de flores que no son clavel, en especial el 94.7% y por otro lado. el 5.3% si lo son. Ademas de eso gracias al histograma se puede analizar que, en la variable \"sepal length (cm)\" la medida que mas se repite es de 5 cm, en la variable \"sepal width (cm)\" la medida es 3 cm aparte de tener un comportamiento ciertamente con distribucion normal, en la variable \"petal length (cm)\" la medida es 1.5 cm y por ultimo, la variable \"petal width (cm)\" es 0.2 cm aproximadamente.
